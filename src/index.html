@@ -1,44 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+   
+   
+   
     <meta charset="UTF-8">
     <title>Андрей Браун - Веб разработчик</title>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="./css/animate.min.css"/>
 </head>
+    
+
+
+
 <body>
+
+   <div class="loader">
+	<div class="loader-inner">
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+	</div>
+</div>
+
+    
+
+
+
+
+
 <header>    
 <nav>
 <div class="logo">Андрей Браун</div>
 <div class="menu"><ul>
-    <li>Обо мне</li>
-    <li>Услуги</li>
-    <li>Кейсы</li>
-    <li>Прайс</li>
-    <li>Отзывы</li>
-    <li>Контакты</li>
+    <li><a href="#">Обо мне</a></li>
+    <li><a href="#">Услуги</a></li>
+    <li><a href="#">Кейсы</a></li>
+    <li><a href="#">Прайс</a></li>
+    <li><a href="#">Отзывы</a></li>
+    <li><a href="#">Контакты</a></li>
   </ul></div>
  </nav>
 </header>
 
-<div class="main"><div class="title__container">
+<main>
+<section class="main"><div class="title__container">
     <h1>Привет<br>Я Андрей Браун</h1>
     <h4>Фулл стек веб-разработчик</h4>
-    <input type="submit"value="Обо мне">
-    <input type="submit"value="Мои работы">
-</div></div>
+    <input type="button"value="Обо мне">
+    <input type="button"value="Мои работы">
+</div>
+</section>
+</main>
+
+
+
+
+
 <div class="main2"><h2> Обо мне </h2>
 <div class="logo2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
 <div class="logo1"><img src="./img/smaalboy.png" alt="Маленькая картиночка"></div>
-  <p>
+  <article><p>
    <center1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt amet, perferendis maiores reiciendis reprehenderit deleniti dolor eius vero quibusdam et, asperiores at cum, quis mollitia sequi molestiae a. Earum temporibus tempore quisquam.</center1>
   </p>
    
-    <center2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic libero excepturi, quod ipsam autem fuga eos officiis amet iure qui consectetur odit illum ullam architecto fugit nam aspernatur aliquam velit cum et.</center2><p>
-    <input type="submit"value="Скачать резюме">  </p>
+    <center2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic libero excepturi, quod ipsam autem fuga eos officiis amet iure qui consectetur odit illum ullam architecto fugit nam aspernatur aliquam velit cum et.</center2><p>  
+      <input type="button"value="Скачать резюме">  </p></article>
     </div>
-    
-    <div class="blok"><h2>Что я умею</h2>
+   <div class="boxx animate__animated animate__flash">
+   <section> <div class="blok"><h2>Что я умею</h2>
     <div class="logo3"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
 
 <div class="logo4"> <img src="./img/nout.png"alt=""><p>Веб-дизайн</p> 
@@ -52,6 +96,7 @@
 
 <div class="logo7"><img src="./img/gromofon.png" alt=""><p>Маркетинг</p>
 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, debitis.</span></div></div>
+</section></div>
 
 <div class="blok2"><div class="app"><h2>Кейсы</h2>
 <div class="log2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
@@ -60,13 +105,12 @@
 <div class="client">
 <h3>CLIENT:</h3><br><p>Какая-то компания</p>
 <h3>WEBSITE:</h3><br><p>http:__www_somedomain_com</p>
-<p><input type="submit"value="VISIT LIVE SITE"></p></div>
+<p><input type="button"value="VISIT LIVE SITE"></p></div>
 
 <div class="gg"><h4>Название проекта</h4>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ad error maxime ducimus delectus illum voluptatibus laborum deleniti nesciunt odit quae veritatis non sed, doloremque tempora, obcaecati corrupti aspernatur nemo tenetur blanditiis quisquam cum unde neque temporibus praesentium! Saepe aspernatur magnam fuga odit tempora ipsa.</div> 
+<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ad error maxime ducimus delectus illum voluptatibus laborum deleniti nesciunt odit quae veritatis non sed, doloremque tempora, obcaecati corrupti aspernatur nemo tenetur blanditiis quisquam cum unde neque temporibus praesentium! Saepe aspernatur magnam fuga odit tempora ipsa.</article></div> 
 </div>
-
-
+    
 <div class="rs">
 <div class="rsgif"><h2>Расчет стоимости</h2>
 <h3>ТИП САЙТА</h3> 
@@ -97,7 +141,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ad error maxime du
 <div class="log2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>    
 <p></p>
      
-     
+    
 <div class="log1"><img src="./img/smail.png" alt=""> <p>120</p>  <small>СЧАСТЛИВЫХ КЛИЕНТОВ</small></div>
  <p></p>
 
@@ -110,8 +154,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ad error maxime du
 <div class="log5"><img src="./img/kubok.png" alt=""> <p>23</p>  <small>НАГРАД ПОЛУЧЕНО</small></div>
 <p></p>
  </div>
-
-                
+            
  <div class="otziv"><h2>ОТЗЫВЫ</h2>
 <div class="log2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>   
 <div class="gif"><img src="./img/fotka.png" alt=""></div>    
@@ -122,8 +165,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolor omnis n
 <img src="./img/serayatochka.png" alt="">
 <img src="./img/serayatochka.png" alt=""> </div> 
 </div>        
-
-
+ 
 <div class="kontakt">
 <h2>МОИ КОНТАКТЫ</h2>
 <div class="log2"><img src="./img/sss.png" alt="Ораньжевая полоска"></div><p></p>
@@ -141,11 +183,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolor omnis n
 <div class="sc"><input type="submit"value="Отправить"></div> </div>             
 </div>       
 <p></p>        
+ <footer>
+<div class="karta"><div class="here"><center><img src="./img/i.png" alt="">
+</center></div></div>
 
-<div class="karta"></div>
-    
+ 
 <div class="last"><center>Copyright ©2021Андрей Браун  Design by Web</center></div>
-<footer>
+
 </footer>
+
+
 </body>
+
 </html>
