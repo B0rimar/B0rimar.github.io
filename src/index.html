@@ -8,8 +8,9 @@
     <meta charset="UTF-8">
     <title>Андрей Браун - Веб разработчик</title>
 <link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="./css/animate.min.css"/>
+<link rel="stylesheet" href="css/animate.min.css"/>
 </head>
     
 
@@ -45,46 +46,80 @@
 
 <header>    
 <nav>
-<div class="logo">Андрей Браун</div>
-<div class="menu"><ul>
+<div class="container">
+    <div class="row">
+        <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div>
+        </div>
+        <div class=" px-0 col-xxl-6 col-xl-7  col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
     <li><a href="#">Обо мне</a></li>
     <li><a href="#">Услуги</a></li>
     <li><a href="#">Кейсы</a></li>
     <li><a href="#">Прайс</a></li>
     <li><a href="#">Отзывы</a></li>
     <li><a href="#">Контакты</a></li>
-  </ul></div>
+      </ul>
+   </div></div>
+   <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+       <div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+  Навигация  
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Обо мне</a></li>
+    <li><a class="dropdown-item" href="#">Услуги</a></li>
+    <li><a class="dropdown-item" href="#">Кейсы</a></li>
+    <li><a class="dropdown-item" href="#">Прайс</a></li>
+    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+    <li><a class="dropdown-item" href="#">Контакты</a></li>
+  </ul>
+</div>
+   </div>
+    </div>
+</div>
+
+
  </nav>
 </header>
 
+
 <main>
-<section class="main"><div class="title__container">
+<section class="main">
+  <div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5">
+     <div class="title__container mt-5">
     <h1>Привет<br>Я Андрей Браун</h1>
     <h4>Фулл стек веб-разработчик</h4>
     <input type="button"value="Обо мне">
     <input type="button"value="Мои работы">
-</div>
+</div> 
+  </div></div></div>
+   
 </section>
 </main>
 
 
 
 
-
-<div class="main2"><h2> Обо мне </h2>
+<div class="container1">
+<div class="main2  "><h2> Обо мне </h2>
 <div class="logo2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
 <div class="logo1"><img src="./img/smaalboy.png" alt="Маленькая картиночка"></div>
   <article><p>
    <center1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt amet, perferendis maiores reiciendis reprehenderit deleniti dolor eius vero quibusdam et, asperiores at cum, quis mollitia sequi molestiae a. Earum temporibus tempore quisquam.</center1>
   </p>
    
-    <center2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic libero excepturi, quod ipsam autem fuga eos officiis amet iure qui consectetur odit illum ullam architecto fugit nam aspernatur aliquam velit cum et.</center2><p>  
-      <input type="button"value="Скачать резюме">  </p></article>
+    <center2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic libero excepturi, quod ipsam autem fuga eos officiis amet iure qui consectetur odit illum ullam architecto fugit nam aspernatur aliquam velit cum et.</center2><p></p> 
+      <input type="button"value="Скачать резюме">  </article>
     </div>
    <div class="boxx animate__animated animate__flash">
+   </div>
+   </div>
+   
+   
+   
    <section> <div class="blok"><h2>Что я умею</h2>
     <div class="logo3"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
-
+<div class="adapt">
 <div class="logo4"> <img src="./img/nout.png"alt=""><p>Веб-дизайн</p> 
 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus,debitis.</span></div>
 
@@ -96,7 +131,7 @@
 
 <div class="logo7"><img src="./img/gromofon.png" alt=""><p>Маркетинг</p>
 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, debitis.</span></div></div>
-</section></div>
+</div></section>
 
 <div class="blok2"><div class="app"><h2>Кейсы</h2>
 <div class="log2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
@@ -192,7 +227,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolor omnis n
 
 </footer>
 
-
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

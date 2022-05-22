@@ -6,17 +6,7 @@ font-family: Arial, sans-serif;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* Начало загрузчика*/
 
 .loader {
     background: #000;
@@ -119,31 +109,7 @@ font-family: Arial, sans-serif;
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Конец загрузчика*/
 
 
 
@@ -161,7 +127,6 @@ z-index: 100;
 color: #fff;
 font-size: 28px; 
 line-height: 60px;    
-padding-left: 388px; 
 float: left;
 -webkit-animation: comming 2s ease;
 -o-animation:comming 2s ease;
@@ -172,8 +137,7 @@ width:100%;
 height:100%;
 }
 .menu{
-float:left;
-padding-left:432px; 
+float:left; 
 }   
 
 
@@ -182,7 +146,7 @@ float:left;
 line-height: 60px;  
 color: #fff;
 margin-right:40px; 
-font-size: 16px; 
+font-size: 14px; 
 text-transform: uppercase;
 -webkit-animation:topshift 0.4s ease forwards;
 -o-animation:topshift 0.4s ease forwards;
@@ -197,9 +161,9 @@ background:url(../img/boy.png)90% 100%/auto 85% no-repeat,url(../img/bg.jpg) cen
 
 .title__container{
 float:left;
-margin: 432px 0px 0px 404px;   
 color:#2c384a ;
 text-align: center;
+width: 100%;
 opacity: 0 ;
 -webkit-animation: teitlemove 1s ease forwards;
 -o-animation: teitlemove 1s ease forwards;
@@ -210,7 +174,8 @@ animation-delay: 2.4s ;
 }
 
 .title__container h1{
-font-size:60px ;
+font-family: Arial, sans-serif;
+font-size:72px ;
 font-weight: bold ;
 }
 .title__container h4{
@@ -234,6 +199,7 @@ margin: 58px 14px 0px 14px;
     color: white;
     transform: scale(1);
     display: inline-block;
+    text-decoration: none;
 }
 .menu li a:visited{
     color: white;
@@ -281,9 +247,35 @@ margin: 58px 14px 0px 14px;
     }
     to{
         opacity:1;
-        margin-left: 404px;
+        margin-left: 0px;
     } 
 }
+.white-btn:visited{
+    color: white;
+}
+@media (max-width: 991px){
+    .title__container, .title__container h4, .title__container input{
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+    .title__container input{
+        border: 2px solid #fff; 
+    } 
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left:0 ;
+        right:0 ;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+    }
+}
+
 
 
 .menu li:nth-child(2){
@@ -305,13 +297,15 @@ margin: 58px 14px 0px 14px;
 
 
 .main2{
-    float:left; 
+    /*float:left;*/ 
     font-size:20px;
     color:#3f495a ;
     text-align: center; 
     background:url(../img/1.png) center/cover no-repeat;
     height:100%;
-    padding: 0px 598px 44px 598px;
+    margin-top:108px; 
+    
+    /*padding: 0px 585px 0px 585px;*/
     -webkit-animation:anime 1s ease forwards ;
     -o-animation:anime 1s ease forwards;
     animation:anime 1s ease forwards;
@@ -328,7 +322,7 @@ margin: 58px 14px 0px 14px;
     font-size:40px; 
     color:#263244;  
     font-weight: bold;
-    padding: 108px 0px 32px 0px;
+    padding: 0px 0px 32px 0px;
     }
 .logo2 {
    padding: 0px 0px 60px 0px;
@@ -344,7 +338,7 @@ margin: 58px 14px 0px 14px;
     background:url(../img/ik.jpg) 5% 60% /15px 14px no-repeat;
     border: 3px solid #6f707e;
     color:#6f707e;
-    margin:37px ;
+    margin:0px 0px 97px 0px ;
     padding:10px 10px 23px 33px;
 }
 .main2 input{
@@ -357,7 +351,6 @@ margin: 58px 14px 0px 14px;
 .main2 input:hover{
    color: black;
 }
-
 
 
 @keyframes anime{
@@ -373,6 +366,40 @@ margin: 58px 14px 0px 14px;
 
 
 
+@media(min-width:992px){
+    .main2{
+    width:50%;
+    margin-left: 430px ;
+    
+    }
+} 
+
+@media(max-width:991px){
+    .main2{
+      width:800px;  
+    }
+}
+@media(max-width:823px){
+    .main2{
+      width:600px;  
+    }
+}
+@media(max-width:591px){
+    .main2{
+      width:400px;  
+    }
+}
+@media(max-width:391px){
+    .main2{
+      width:300px;  
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -380,11 +407,11 @@ margin: 58px 14px 0px 14px;
 
 .blok{
     float:left;
-    height: 522px;
+    height: 625px;
     width: 100%;
     font-size:20px;
     color:#5f6674 ;
-    background:url(../img/fon.jpg)
+    background:url(../img/fon.jpg);
 }
 .blok h2{
     font-size:40px; 
@@ -399,7 +426,7 @@ margin: 58px 14px 0px 14px;
 }
 .logo4{
     float:left;
-    margin: 0px 82px 0px 365px;
+    /*margin: 0px 82px 0px 365px;*/
     font-size: 16px;
     width: 222px;
     text-align: center;
@@ -408,7 +435,7 @@ margin: 58px 14px 0px 14px;
     color: #cf7600;
     font-size: 20px;
     font-weight: bold;
-    margin:40px 0px 20px 0px; 
+    /*margin:40px 0px 20px 0px;*/ 
 }
 .logo4 span{
     color: #3f495a;
@@ -416,7 +443,7 @@ margin: 58px 14px 0px 14px;
     }
 .logo5{
     float:left;
-    margin-right:82px;
+    /*margin-right:82px;*/
     font-size: 16px;
     width: 222px;
     text-align: center;
@@ -425,7 +452,8 @@ margin: 58px 14px 0px 14px;
     color: #cf7600;
     font-size: 20px;
     font-weight: bold;
-    margin:40px 0px 20px 0px;
+    
+    /*margin:40px 0px 20px 0px;*/
 }
 .logo5 span{
     color: #3f495a;
@@ -433,7 +461,7 @@ margin: 58px 14px 0px 14px;
 }
 .logo6{
    float:left;
-    margin-right:82px;
+    /*margin-right:82px;*/
     font-size: 16px;
     width: 222px;
     text-align: center;
@@ -442,7 +470,7 @@ margin: 58px 14px 0px 14px;
     color: #cf7600;
     font-size: 20px;
     font-weight: bold;
-    margin:40px 0px 20px 0px;
+    /*margin:40px 0px 20px 0px;*/
     }
 .logo6 span{
     color: #3f495a;
@@ -450,7 +478,7 @@ margin: 58px 14px 0px 14px;
 }
 .logo7{
     float:left;
-    margin-right:82px;
+    /*margin-right:82px;*/
     font-size: 16px;
     width: 222px;
     text-align: center;
@@ -459,12 +487,35 @@ margin: 58px 14px 0px 14px;
     color: #cf7600;
     font-size: 20px;
     font-weight: bold;
-    margin:40px 0px 20px 0px;
+    /*margin:40px 0px 20px 0px;*/
 }
 .logo7 span{
     color: #3f495a;
     font-size:16px;
 }
+.adapt{
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .blok2 {
     float:left;
