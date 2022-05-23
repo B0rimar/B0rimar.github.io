@@ -322,7 +322,7 @@ margin: 58px 14px 0px 14px;
     font-size:40px; 
     color:#263244;  
     font-weight: bold;
-    padding: 0px 0px 32px 0px;
+    
     }
 .logo2 {
    padding: 0px 0px 60px 0px;
@@ -407,7 +407,7 @@ margin: 58px 14px 0px 14px;
 
 .blok{
     float:left;
-    height: 625px;
+    height: 523px;
     width: 100%;
     font-size:20px;
     color:#5f6674 ;
@@ -418,7 +418,7 @@ margin: 58px 14px 0px 14px;
     color:#263244;  
     font-weight: bold;
     text-align: center;
-    padding: 108px 0px 32px 0px ;
+    padding: 108px 0px 0px 0px ;
 }
 .logo3{
     padding: 0px 0px 102px 0px ;
@@ -494,25 +494,15 @@ margin: 58px 14px 0px 14px;
     font-size:16px;
 }
 .adapt{
-    
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width:915px){
+    .blok{
+        height:650px;
+    }
+}
 
 
 
@@ -523,7 +513,7 @@ margin: 58px 14px 0px 14px;
    
 }
 .blok2 {
-    float:left;
+    
     height: 1500px;
     width: 100%;
     
@@ -540,7 +530,7 @@ margin: 58px 14px 0px 14px;
     color:#384354;  
     font-weight: bold;
     text-align: center;
-    padding: 108px 0px 40px 0px ;
+    padding: 108px 0px 0px 0px ;
 }
 .log2{
     
@@ -548,12 +538,13 @@ margin: 58px 14px 0px 14px;
     text-align: center;
 }
 
+
 .blok2 h4{
     text-align:center;
     color: #626976;
     font-size: 16px;
-    padding: 0px 0px 0px 0px ;
-}
+    }
+
 
 .blok2 h3{
     float:left;
@@ -567,15 +558,24 @@ margin: 58px 14px 0px 14px;
     text-align: left;
     line-height:33px;
     float:left;
-    margin: 0px 0px 0px 389px;
+    /*margin: 0px 0px 0px 389px;*/
     font-size: 16px;
     color: #384354;
 }
 .gg{
     float:left;
-    width: 875px;
+    width: 780px;
     color: #384354;
-    padding: 0px 0px 0px 0px;
+    
+}
+@media(max-width: 780px){
+    .gg{
+        width:500px;
+        text-align: center;
+    }
+    .gg h4{
+        padding-left:110px; ;
+    }
 }
 .gg h4{
     font-weight: bold;
@@ -606,16 +606,30 @@ margin: 58px 14px 0px 14px;
    background:rgba(99, 181, 174, 0.5); 
 }
 
+
+
 .rs{
     float:left;
     height: 800px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
 }
+@media(max-width:1100px){
+    .rs{
+        opacity:0; 
+        position: absolute;
+    }
+    
+}
+
 .rsgif{
-    padding-left: 480px; 
+    
     text-align: left;
     background:url(../img/sloy6.jpg)center/cover no-repeat;
+    
 }
 .rs h2{
     font-size:40px; 
@@ -638,6 +652,7 @@ margin: 58px 14px 0px 14px;
     font-size: 15px;
     padding-left:24px; 
     background:url(../img/3v1.jpg);
+    
 }
 
 .liniya{
@@ -666,19 +681,28 @@ margin: 58px 14px 0px 14px;
     background:url(../img/fon2.jpg)center/cover no-repeat;
     background-attachment: fixed;
 }
-
+@media(max-width:1000px){
+    .stat{
+       height:700px;  
+    }
+}
 
 .stat h2{
     text-align:center;
     color: #323e4f;
     font-size:28px;
     font-weight: 600;
-    padding: 100px 0px 33px 0px;  
+    padding: 100px 0px 0px 0px;
+    
 }
-
+.boox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .log1 {
     float:left;
-    margin:0px 70px 100px 320px;
+    
     font-size: 16px;
     width: 250px;
     text-align: center;
@@ -686,27 +710,30 @@ margin: 58px 14px 0px 14px;
 }
 .log3 {
     float:left;
-    margin:0px 50px 100px 0px;
+    
     font-size: 16px;
     width: 250px;
     text-align: center;
    
+    
 }
 .log4 {
     float:left;
-    margin:0px 70px 100px 0px;
+    
     font-size: 16px;
     width: 250px;
     text-align: center;
     
+    
 }
 .log5 {
     float:left;
-    margin:0px 20px 100px 0px;
+    
     font-size: 16px;
     width: 200px;
     text-align: center;
    
+    
 }
 
 
@@ -738,7 +765,7 @@ margin: 58px 14px 0px 14px;
     color:#243042;  
     font-weight: bold;
     text-align: center;
-    padding:105px 0px 35px 0px; 
+    padding:105px 0px 0px 0px; 
 }
 .gif{
     text-align: center;
@@ -749,8 +776,14 @@ margin: 58px 14px 0px 14px;
     color:#243042;
     width: 690px;
     text-align: center;
-    margin-left: 555px;
-    padding-bottom:40px;     
+    
+    padding-bottom:40px; 
+    
+}
+.teeext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .otziv center{
     color:#243042;
@@ -769,6 +802,7 @@ margin: 58px 14px 0px 14px;
     width: 100% ;
     height: 900px;
     background:url(../img/fon3.jpg)center/cover no-repeat;
+   
 }
 .kontakt h2{
     font-size: 30px;
@@ -780,43 +814,65 @@ margin: 58px 14px 0px 14px;
     font-size:16px;
     color: #e9e9ea;
     text-align: center;
+    padding-bottom:42px;
+    margin-left: 1%;
 }
 
 .logot{
     float:left;
     color: #fff;
-    margin:45px 60px 40px 600px;
+    margin-left: 25%;
     font-size: 16px;
     width: 160px;
     height: 73px;
     text-align: center;
+}
+@media(max-width:850px){
+    .logot{
+       margin-left: 7%; 
+    }
 }
 .logot1{
     float:left;
     color: #fff;
-    margin:45px 70px 40px 0px;
+    
     font-size: 16px;
     width: 160px;
     height: 73px;
     text-align: center;
+    
 }
 .logot2{
     float:left;
     color: #fff;
-    margin:45px 400px 40px 0px;
+    
     font-size: 16px;
     width: 130px;
     height: 73px;
     text-align: center;
+    
 }
 .kontakt p{
     padding-top: 15px;
 }
 .sv{
     float:left;
-    padding-left: 550px; 
+    /*padding-left: 550px;*/
+    width: 100%;
+    
+        
+    
+    
+}
+
+}
+@media(max-width:767px){
+    .textarea{
+      width:400px;  
+    }
 }
 .sv h4{
+    padding-top:50px; 
     color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -824,11 +880,12 @@ margin: 58px 14px 0px 14px;
 }
 .sv input{
     height: 35px;
-    width: 355px; 
+    width: 365px; 
     color: #707173;
     font-size: 16px;
-    margin: 0px 15px 1px 0px; 
-    background-color:#d8dbe1; 
+    margin: 0px 0px 1px 0px; 
+    background-color:#d8dbe1;
+    
 }
 
 .sc input{
@@ -847,11 +904,17 @@ margin: 58px 14px 0px 14px;
 }
 .sv textarea{
     height: 100px;
-    width: 728px;
+    width: 735px;
     color: #707173;
     font-size: 16px;
-    float:left;                                          
+    text-align: center;
+    padding-right: 630px;
     background:url(../img/polesms.png);
+}
+@media(max-width:760px){
+    .sv textarea{
+        width:365px;
+    }
 }
 .sc input{
     height: 45px;
@@ -862,7 +925,8 @@ margin: 58px 14px 0px 14px;
     border: 3px solid #f9faff;
     color:#f9faff;
     background-color: Transparent ;
-    margin:35px ;
+    margin:35px;
+    
 }
 .karta{
     float:left;
