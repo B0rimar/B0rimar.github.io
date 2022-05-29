@@ -304,8 +304,8 @@ margin: 58px 14px 0px 14px;
     background:url(../img/1.png) center/cover no-repeat;
     height:100%;
     margin-top:108px; 
-    
-    /*padding: 0px 585px 0px 585px;*/
+    margin-left: auto;
+    margin-right: auto;
     -webkit-animation:anime 1s ease forwards ;
     -o-animation:anime 1s ease forwards;
     animation:anime 1s ease forwards;
@@ -407,7 +407,7 @@ margin: 58px 14px 0px 14px;
 
 .blok{
     float:left;
-    height: 523px;
+    /*height: 523px;*/
     width: 100%;
     font-size:20px;
     color:#5f6674 ;
@@ -568,6 +568,12 @@ margin: 58px 14px 0px 14px;
     color: #384354;
     
 }
+@media(max-width:1300px){
+    .gg{
+        padding-top:25px;
+    }
+}
+
 @media(max-width: 780px){
     .gg{
         width:500px;
@@ -733,9 +739,15 @@ margin: 58px 14px 0px 14px;
     width: 200px;
     text-align: center;
    
-    
 }
-
+@media(max-width:975px){
+    .log4 {
+        padding-top:50px;
+    }
+    .log5{
+        padding-top:50px;
+    }
+}
 
 
 
@@ -746,7 +758,7 @@ margin: 58px 14px 0px 14px;
     color: #323e4f;
     font-size: 28px;
     font-weight: 900;
-    margin:33px 0px 30px 0px;
+    /*margin:33px 0px 30px 0px;*/
 }
 .stat small{
     color: #323e4f;
@@ -909,13 +921,15 @@ margin: 58px 14px 0px 14px;
     font-size: 16px;
     text-align: center;
     padding-right: 630px;
-    background:url(../img/polesms.png);
+    background-color:#d8dbe1;
+   
 }
-@media(max-width:760px){
+/*@media(max-width:760px){
     .sv textarea{
-        width:365px;
+        width: 352px;
+        height: 200px;
     }
-}
+}*/
 .sc input{
     height: 45px;
     width: 125px;
@@ -955,7 +969,9 @@ margin: 58px 14px 0px 14px;
 }
 
 
-
+.question{
+    z-index: 101;
+}
 
 
 
