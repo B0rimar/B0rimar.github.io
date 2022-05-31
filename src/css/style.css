@@ -877,19 +877,21 @@ margin: 58px 14px 0px 14px;
     
 }
 
-}
-@media(max-width:767px){
+
+/*@media(max-width:767px){
     .textarea{
       width:400px;  
     }
-}
-.sv h4{
+}*/
+
+.sv h4 {
     padding-top:50px; 
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     padding-bottom:45px; 
 }
+
 .sv input{
     height: 35px;
     width: 365px; 
@@ -916,20 +918,13 @@ margin: 58px 14px 0px 14px;
 }
 .sv textarea{
     height: 100px;
-    width: 735px;
+    width: 41%;
     color: #707173;
     font-size: 16px;
     text-align: center;
     padding-right: 630px;
     background-color:#d8dbe1;
-   
-}
-/*@media(max-width:760px){
-    .sv textarea{
-        width: 352px;
-        height: 200px;
     }
-}*/
 .sc input{
     height: 45px;
     width: 125px;
@@ -969,9 +964,7 @@ margin: 58px 14px 0px 14px;
 }
 
 
-.question{
-    z-index: 101;
-}
+
 
 
 
