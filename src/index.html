@@ -9,6 +9,7 @@
     <title>Андрей Браун - Веб разработчик</title>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/animate.min.css"/>
 </head>
@@ -46,6 +47,7 @@
 
 
 
+
 <header>    
 <nav>
 <div class="container">
@@ -53,12 +55,12 @@
         <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div>
         </div>
         <div class=" px-0 col-xxl-6 col-xl-7  col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
-    <li><a href="#">Обо мне</a></li>
-    <li><a href="#">Услуги</a></li>
-    <li><a href="#">Кейсы</a></li>
-    <li><a href="#">Прайс</a></li>
-    <li><a href="#">Отзывы</a></li>
-    <li><a href="#">Контакты</a></li>
+    <li><a href="#paragraf-1">Обо мне</a></li>
+    <li><a href="#paragraf-2">Услуги</a></li>
+    <li><a href="#paragraf-3">Кейсы</a></li>
+    <li><a href="#paragraf-4">Прайс</a></li>
+    <li><a href="#paragraf-5">Отзывы</a></li>
+    <li><a href="#paragraf-6" >Контакты</a></li>
       </ul>
    </div></div>
    <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
@@ -68,12 +70,12 @@
   </a>
 
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Обо мне</a></li>
-    <li><a class="dropdown-item" href="#">Услуги</a></li>
-    <li><a class="dropdown-item" href="#">Кейсы</a></li>
-    <li><a class="dropdown-item" href="#">Прайс</a></li>
-    <li><a class="dropdown-item" href="#">Отзывы</a></li>
-    <li><a class="dropdown-item" href="#">Контакты</a></li>
+    <li><a class="dropdown-item" href="#paragraf-1">Обо мне</a></li>
+    <li><a class="dropdown-item" href="#paragraf-2">Услуги</a></li>
+    <li><a class="dropdown-item" href="#paragraf-3">Кейсы</a></li>
+    <li><a class="dropdown-item" href="#paragraf-4">Прайс</a></li>
+    <li><a class="dropdown-item" href="#paragraf-5">Отзывы</a></li>
+    <li><a class="dropdown-item" href="#paragraf-6">Контакты</a></li>
   </ul>
 </div>
    </div>
@@ -103,7 +105,7 @@
 
 
 <div class="container1">
-<div class="main2  "><h2> Обо мне </h2>
+<div class="main2  "><h2 id="paragraf-1"> Обо мне </h2>
 <div class="logo2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
 <div class="logo1"><img src="./img/smaalboy.png" alt="Маленькая картиночка"></div>
   <article><p>
@@ -119,7 +121,7 @@
    
    
    
-   <section> <div class="blok"><h2>Что я умею</h2>
+   <section> <div class="blok"><h2 id="paragraf-2">Что я умею</h2>
     <div class="logo3"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
 <div class="adapt">
 <div class="logo4"> <img src="./img/nout.png"alt=""><p>Веб-дизайн</p> 
@@ -135,11 +137,18 @@
 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, debitis.</span></div></div>
 </div></section>
 
-<div class="blok2"><div class="app"><h2>Кейсы</h2>
+<div class="blok2"><div class="app"><h2 id="paragraf-3">Кейсы</h2>
 <div class="log2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>
 <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste ab sit! At, itaque, eius.</h4></div>
 
-<div class="row col-10 offset-"><img src="./img/kartinka.jpg" alt=""></div>
+
+<a class="image-popup-no-margins" href="./img/keis.png">
+	<div class="row col-10 offset-1"><img src="./img/kartinka.jpg" ></div>
+</a>
+
+
+
+
 <div class="client col-2 offset-2  ">
 <h3>CLIENT:</h3><br><br><p>Какая-то компания</p>
 <h3>WEBSITE:</h3><br><p>http:__www_somedomain_com</p>
@@ -150,30 +159,65 @@
 </div>
     
 <div class="rs">
-<div class="rsgif"><h2>Расчет стоимости</h2>
+<div class="rsgif"><h2 id="paragraf-4">Расчет стоимости</h2>
 <h3>ТИП САЙТА</h3> 
-<select name="list1" id="list2"> 
-<option value="opt1">Выберите пункт...</option>
-<option value="opt2">Выберите пункт...</option>
+<select name="list1" id="123"> 
+<option value="3000">Сайт-Визитка</option>
+<option value="3000">Интернет-магазин</option>
+<option value="3000">Корпоратиный сайт</option>
 </select>
 
 <h3>ДИЗАЙН</h3> 
-<select name="list1" id="list2"> 
-<option value="opt1">Выберите пункт...</option>
-<option value="opt2">Выберите пункт...</option>
+<select name="list1" id="122"> 
+<option value="3000">Шаблонный</option>
+<option value="3000">Уникальный</option>
 </select>
 
 <h3>АДАПТИВНОСТЬ</h3> 
-<select name="list1" id="list2"> 
-<option value="opt1">Выберите пункт...</option>
-<option value="opt2">Выберите пункт...</option>
+<select name="list1" id="121"> 
+<option value="3000">Резиновая</option>
+<option value="3000">Неадаптивная</option>
 </select>
 <div class="liniya"><img src="./img/liniya.jpg" alt="Линия"></div>
 <h5><div class="slovo">Сроки</div> 0</h5> 
 <h5><div class="slovo">Стоимость</div> 0</h5> 
 </div>
 </div>
+    
      
+      
+       
+        
+         
+          
+    <button type="button" class="btn btn-primary col-4 offset-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  НАЖМИ И ПОЛУЧИ ПОДАРОК!!!
+</button>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Здравствуйте!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+    Дарю скидку на первый сайт 20% по промокоду : FIRST
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Выход</button>
+        <button type="button" class="btn btn-primary">Ок</button>
+      </div>
+    </div>
+  </div>
+</div>       
+           
+             
+              
+               
+                
+                        
      
 <div class="stat"><h2>НЕМНОГО СТАТИСТИКИ</h2>
 <div class="log2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>    
@@ -193,19 +237,45 @@
 <p></p></div> 
  </div>
             
- <div class="otziv"><h2>ОТЗЫВЫ</h2>
+ <div class="otziv"><h2 id="paragraf-5">ОТЗЫВЫ</h2>
 <div class="log2"><img src="./img/everywhere.jpg" alt="Ораньжевая полоска"></div>   
-<div class="gif"><img src="./img/fotka.png" alt=""></div>    
- <div class="teeext"> <p> 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolor omnis necessitatibus doloribus cum animi sapiente velit assumenda ipsum dolorum.</p> </div> 
-<center><b>Михаил</b>,  Ген директор ПАО “Газпром”</center>
-<div class="point"><img src="./img/orantochka.png" alt="">
-<img src="./img/serayatochka.png" alt="">
-<img src="./img/serayatochka.png" alt=""> </div> 
-</div>        
+
+
+<!--<p> <div class="teeext"> 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolor omnis necessitatibus doloribus cum animi sapiente velit assumenda ipsum dolorum. </div></p>-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/otziv_foto.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/otziv_foto.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/otziv_foto.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+
+
+</div>       
  
 <div class="kontakt">
-<h2>МОИ КОНТАКТЫ</h2>
+<h2 id="paragraf-6">МОИ КОНТАКТЫ</h2>
 <div class="log2"><img src="./img/sss.png" alt="Ораньжевая полоска"></div><p></p>
 <center>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, distinctio.</center>
 
@@ -237,14 +307,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolor omnis n
 
 
 
-
-
-
-
-
 </footer>
-<script src="js/myScript.js"></script>
+<script src="js/jquery-3.6.0.min.js" ></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/myScript.js"></script>
 </body>
 
 </html>

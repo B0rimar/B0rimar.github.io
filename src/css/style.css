@@ -7,7 +7,7 @@ font-family: Arial, sans-serif;
 
 
 /* Начало загрузчика*/
-
+/*
 .loader {
     background: #000;
     background: radial-gradient(#222, #000);
@@ -17,7 +17,7 @@ font-family: Arial, sans-serif;
     position: fixed;
     right: 0;
     top: 0;
-    z-index: ;
+    z-index:-0,01 ;
     -webkit-animation:ppp 6s ease forwards ;
     -o-animation:ppp 6s ease forwards;
     animation:ppp 6s ease forwards;
@@ -107,20 +107,20 @@ font-family: Arial, sans-serif;
 	100% {
 		transform: rotate(360deg);
 	}
-}
+}*/
 
 /* Конец загрузчика*/
 
 
 
 
-
-nav{    
+.nav{    
 width: 100%;
 height: 60px;
 background:#344051; 
 position: fixed;
 z-index: 100;
+     
 }    
 
 .logo{    
@@ -130,14 +130,17 @@ line-height: 60px;
 float: left;
 -webkit-animation: comming 2s ease;
 -o-animation:comming 2s ease;
-animation:comming 2s ease;    
+animation:comming 2s ease; 
+    
 } 
-main{
+.main{
 width:100%; 
 height:100%;
+    
 }
 .menu{
-float:left; 
+float:left;
+    
 }   
 
 
@@ -514,7 +517,7 @@ margin: 58px 14px 0px 14px;
 }
 .blok2 {
     
-    height: 1500px;
+    height: 1200px;
     width: 100%;
     
  }
@@ -616,7 +619,7 @@ margin: 58px 14px 0px 14px;
 
 .rs{
     float:left;
-    height: 800px;
+    height: 750px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -658,7 +661,7 @@ margin: 58px 14px 0px 14px;
     font-size: 15px;
     padding-left:24px; 
     background:url(../img/3v1.jpg);
-    
+    opacity: 99%;
 }
 
 .liniya{
@@ -679,6 +682,7 @@ margin: 58px 14px 0px 14px;
 }
 /*Сделать параллакс эффект*/
 .stat{
+    margin-top: 30px;
     float:left; 
     color: #323e4f;
     font-size:20px;
@@ -814,7 +818,7 @@ margin: 58px 14px 0px 14px;
     width: 100% ;
     height: 900px;
     background:url(../img/fon3.jpg)center/cover no-repeat;
-   
+   margin-top: 270px;
 }
 .kontakt h2{
     font-size: 30px;
@@ -966,8 +970,47 @@ margin: 58px 14px 0px 14px;
 
 
 
+/*Доработки по сайту (дз после 11-12 уроков)*/
 
 
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+.image-popup-no-margins{
+    opacity: 99%;
+    height: 632px;
+
+}
+
+.carousel-control-prev:hover{
+     background-color: #707173;
+}
+.carousel-control-next:hover{
+    background-color: #707173;
+}
+
+.carousel slide{
+    height: 500px;
+    margin-bottom: 200px;
+}
 
 
 
